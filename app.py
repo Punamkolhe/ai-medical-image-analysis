@@ -9,7 +9,7 @@ from models.gemini_model import load_model, analyze_image
 # ==============================
 # 🔑 SET YOUR API KEY
 # ==============================
-GOOGLE_API_KEY = "AIzaSyD-UWuwoddghvfwff7YKgBdDsNl_v25yB8"
+process.env.GOOGLE_API_KEY
 
 
 
