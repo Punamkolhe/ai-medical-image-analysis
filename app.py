@@ -9,7 +9,7 @@ from models.gemini_model import load_model, analyze_image
 # ==============================
 # 🔑 SET YOUR API KEY
 # ==============================
-process.env.GOOGLE_API_KEY
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 
 
