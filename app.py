@@ -9,9 +9,7 @@ from models.genai_model import load_model, analyze_image
 # ==============================
 # 🔑 LOAD API KEY
 # ==============================
-load_dotenv()
-
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
 
 if not GEMINI_API_KEY:
     st.error("Gemini API Key not found! Check your .env file")
