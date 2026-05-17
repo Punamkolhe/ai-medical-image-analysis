@@ -1,0 +1,10 @@
+# Environment variables (API keys, secrets)
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Temporary files (optional but good)
+*.log
+*.tmp
