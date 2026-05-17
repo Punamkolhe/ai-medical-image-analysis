@@ -9,7 +9,11 @@ from models.genai_model import load_model, analyze_image
 # ==============================
 # 🔑 LOAD API KEY
 # ==============================
+<<<<<<< HEAD
 load_dotenv()
+=======
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+>>>>>>> 14d0c134cc2e3915cf759f9a102fef0796195c61
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
